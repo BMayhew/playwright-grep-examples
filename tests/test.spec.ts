@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test"; // Import the custom matchers definition
 
-test.describe("Custom Assertions", async () => {
+test.describe("Test 1", async () => {
   test("Working test @happy", async () => {
     expect(true).toBe(true);
   });
