@@ -1,0 +1,18 @@
+{
+  "name": "playwright-grep-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --grep-invert @unsatisfactory",
+    "test:unsatisfactory": "npx playwright test --grep @unsatisfactory"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10"
+  }
+}
